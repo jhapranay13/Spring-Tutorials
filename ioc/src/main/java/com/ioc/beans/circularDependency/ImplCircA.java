@@ -6,6 +6,18 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
+/**
+ *
+ *
+ * public class MyBean implements DisposableBean {
+ *
+ *     @Override
+ *     public void destroy() {
+ *         // Custom destruction logic
+ *     }
+ * }
+ */
+
 @Component
 public class ImplCircA implements ApplicationContextAware, InitializingBean {
     private ApplicationContext applicationContext;
