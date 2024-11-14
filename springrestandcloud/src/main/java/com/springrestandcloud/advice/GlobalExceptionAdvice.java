@@ -45,7 +45,7 @@ public class GlobalExceptionAdvice {
     }
     //public class GlobalExceptionAdvice extends ResponseEntityExceptionHandler
      */
-    /*
+
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Object> handleValidationException(MethodArgumentNotValidException ex) {
         Map<String, String> errors = new HashMap<>();
@@ -56,5 +56,5 @@ public class GlobalExceptionAdvice {
             errors.put(fieldName, message);
         });
         return new ResponseEntity<Object>(errors, HttpStatus.BAD_REQUEST);
-    }*/
+    }
 }
