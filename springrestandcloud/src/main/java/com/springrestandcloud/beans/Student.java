@@ -1,8 +1,22 @@
 package com.springrestandcloud.beans;
 
+import io.swagger.v3.oas.annotations.media.Schema;
+
+@Schema(
+        description = "Student desc"
+)
 public class Student {
+    @Schema(
+            description = "Id field"
+    )
     private int id;
+    @Schema(
+            description = "FirstName"
+    )
     private String firstName;
+    @Schema(
+            description = "LastName"
+    )
     private String lastName;
 
     public Student(int id, String firstName, String lastName) {

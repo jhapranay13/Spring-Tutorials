@@ -5,6 +5,12 @@ import com.springrestandcloud.beans.User;
 import com.springrestandcloud.exceptions.ErrorDetails;
 import com.springrestandcloud.exceptions.ResourceNotFoundException;
 import com.springrestandcloud.services.DemoService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -16,6 +22,13 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+// http://localhost:8080/swagger-ui/index.html#/
+
+@Tag(
+        name = "CRUD API FOR Student",
+        description = "Some description for API"
+
+)
 @RestController
 @RequestMapping(value = "root")
 public class StudentActivity {
@@ -31,11 +44,43 @@ public class StudentActivity {
         studentList.add(new Student(2, "Tom", "Riddle"));
     }
 
+    @Operation(
+            summary = "Some API summary",
+            description = "API description"
+    )
+    @ApiResponse(
+            responseCode = "200",
+            description = "Response Description",
+            content = @Content(
+                    schema = @Schema(implementation = Student.class)
+            )
+    )
     @GetMapping("student")
     public Student getStudent() {
         return studentList.get(0);
     }
 
+    @Operation(
+            summary = "Some API summary",
+            description = "API description"
+    )
+    @ApiResponses( value = {
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "Response Description",
+                    content = @Content(
+                            schema = @Schema(implementation = List.class)
+                    )
+            ),
+            @ApiResponse(
+                    responseCode = "401",
+                    description = "Unauthorised Description",
+                    content = @Content(
+                            schema = @Schema(implementation = List.class)
+                    )
+            )
+        }
+    )
     @GetMapping("student-all")
     public List<Student> getAllStudent() {
         return studentList;
