@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringReactive.iml" filepath="$PROJECT_DIR$/.idea/SpringReactive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/functionalRestWebflux/functionalRestWebflux.iml" filepath="$PROJECT_DIR$/functionalRestWebflux/functionalRestWebflux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springRestClient/springRestClient.iml" filepath="$PROJECT_DIR$/springRestClient/springRestClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springWebFlux/springWebFlux.iml" filepath="$PROJECT_DIR$/springWebFlux/springWebFlux.iml" />
+    </modules>
+  </component>
+</project>
