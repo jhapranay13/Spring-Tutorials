@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/SpringAIIntro/pom.xml" />
+        <option value="$PROJECT_DIR$/PromptEngineering/pom.xml" />
+        <option value="$PROJECT_DIR$/RetrievalAugmentedGeneration/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-ai-functions-5-stock-quote-service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-ai-image-3-use-dall-e-3-model/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-ai-image-8-vision-service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-ai-audio-spring-ai-audio-test/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="23" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PromptEngineering/PromptEngineering.iml" filepath="$PROJECT_DIR$/PromptEngineering/PromptEngineering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RetrievalAugmentedGeneration/RetrievalAugmentedGeneration.iml" filepath="$PROJECT_DIR$/RetrievalAugmentedGeneration/RetrievalAugmentedGeneration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringAIIntro/SpringAIIntro.iml" filepath="$PROJECT_DIR$/SpringAIIntro/SpringAIIntro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringAi.iml" filepath="$PROJECT_DIR$/.idea/SpringAi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-ai-audio-spring-ai-audio-test/spring-ai-audio.iml" filepath="$PROJECT_DIR$/spring-ai-audio-spring-ai-audio-test/spring-ai-audio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-ai-functions-5-stock-quote-service/spring-ai-functions.iml" filepath="$PROJECT_DIR$/spring-ai-functions-5-stock-quote-service/spring-ai-functions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-ai-image-3-use-dall-e-3-model/spring-ai-image.iml" filepath="$PROJECT_DIR$/spring-ai-image-3-use-dall-e-3-model/spring-ai-image.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-ai-image-8-vision-service/spring-ai-image (1).iml" filepath="$PROJECT_DIR$/spring-ai-image-8-vision-service/spring-ai-image (1).iml" />
+    </modules>
+  </component>
+</project>

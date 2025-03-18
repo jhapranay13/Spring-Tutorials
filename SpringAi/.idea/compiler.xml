@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-ai-functions" />
+        <module name="spring-ai-image (1)" />
+        <module name="RetrievalAugmentedGeneration" />
+        <module name="spring-ai-image" />
+        <module name="SpringAIIntro" />
+        <module name="spring-ai-audio" />
+        <module name="PromptEngineering" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PromptEngineering" target="23" />
+      <module name="RetrievalAugmentedGeneration" target="23" />
+      <module name="spring-ai-audio" target="21" />
+      <module name="spring-ai-functions" target="21" />
+      <module name="spring-ai-image" target="21" />
+      <module name="spring-ai-image (1)" target="21" />
+      <module name="SpringAIIntro" target="23" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PromptEngineering" options="-parameters" />
+      <module name="RetrievalAugmentedGeneration" options="-parameters" />
+      <module name="SpringAIIntro" options="-parameters" />
+      <module name="spring-ai-audio" options="-parameters" />
+      <module name="spring-ai-functions" options="-parameters" />
+      <module name="spring-ai-image" options="-parameters" />
+      <module name="spring-ai-image (1)" options="-parameters" />
+    </option>
+  </component>
+</project>
