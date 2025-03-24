@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AuthorizationAndAuthentication/AuthorizationAndAuthentication.iml" filepath="$PROJECT_DIR$/AuthorizationAndAuthentication/AuthorizationAndAuthentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JWTTokenIntro/JWTTokenIntro.iml" filepath="$PROJECT_DIR$/JWTTokenIntro/JWTTokenIntro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringSecurity.iml" filepath="$PROJECT_DIR$/.idea/SpringSecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringSecurityIntro/SpringSecurityIntro.iml" filepath="$PROJECT_DIR$/SpringSecurityIntro/SpringSecurityIntro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringSecurityUsingDB/SpringSecurityUsingDB.iml" filepath="$PROJECT_DIR$/SpringSecurityUsingDB/SpringSecurityUsingDB.iml" />
+    </modules>
+  </component>
+</project>
